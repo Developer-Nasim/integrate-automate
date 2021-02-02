@@ -17,6 +17,10 @@
     </head>
     <body>
 
+        <!-- prealoder-area START -->
+        <div class="prealoder-area"><img src="assets/img/prealoder.gif" alt=""></div>
+        <!-- prealoder-area END -->
+
        
         <!-- header-area START -->
         <div class="header-area" id="header">
@@ -299,5 +303,11 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/aos.js"></script> 
         <script src="assets/js/main.js"></script>
+        <script>
+            let loader = document.querySelector('.prealoder-area')
+            window.addEventListener('load', () => {
+                loader.classList.add('none');
+            })
+        </script>
     </body>
 </html>
