@@ -14,6 +14,80 @@
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .header-bottom {
+        padding: 20px 0;
+    } 
+    .hero-area {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .hero-wrp .section-title { 
+        margin-bottom: 35px;
+    }
+    .hero-services {
+        margin-top: 50px;
+    }
+    .about-wrp {
+        padding: 0 0px;
+    }
+    .middle-title {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .about-contents {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .partners-area {
+        padding-top: 80px;
+        padding-bottom: 130px; 
+    }
+    .partners-area .section-title.first {
+        padding-bottom: 70px;
+        margin: 0;
+    }
+    .partners-company ul {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .partners-company ul li {
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+    .partners-company img.map { 
+        margin-top: 40px;
+    }
+    .subscribe {
+        display: block;
+    }
+    .subscribe p {
+        margin: 0;
+        font-size: 18px;  
+        padding-right: 0;
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    .subscribe form input {   
+        margin-bottom: 10px;
+    }
+    .footer-wrp {
+        border-top: 1px solid #dde7f2;
+        margin-top: 100px;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    .section-title h1 { 
+        font-size: 30px; 
+    }
+    .partners-area .section-title.bottom {
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
 
 
 }
@@ -21,8 +95,160 @@
  
 /* small screen :320px. */
 @media (max-width: 767px) {
-
- 
+    body{
+        font-size: 14px;
+    }
+    .header-bottom {
+        padding: 20px 0;
+    } 
+    .hero-area {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        overflow: hidden;
+    }
+    .hero-wrp .section-title { 
+        margin-bottom: 20px;
+    }
+    .hero-services {
+        margin-top: 50px;
+    } 
+    .services .serv-icon { 
+        width: 80px;
+        height: 80px; 
+        border-radius: 5px;
+        margin: auto; 
+        margin-bottom: 10px;
+    }
+    .services .serv-icon img {
+        width: 40px;
+    }
+    .services p {
+        margin: 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .mrb_lx {
+        margin-bottom: 20px;
+    }
+    .section-title {
+        margin-bottom: 30px; 
+    }
+    .about-desc p { 
+        line-height: 22px; 
+        margin-bottom: 15px;
+    } 
+    .about-wrp {
+        padding: 0 0px;
+    }
+    .hero-wrp p { 
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .middle-title {
+        margin-top: 55px;
+        margin-bottom: 60px;
+    }
+    .we_are { 
+        display: block; 
+        padding: 25px;
+    }
+    .we_are .item img {
+        min-width: 160px;
+        height: 160px;
+        max-width: 160px; 
+        margin-bottom: 16px;
+    }
+    .we_are .item h5 {
+        font-size: 16px; 
+        margin-bottom: 2px;
+    }
+    .about-contents h2 {
+        font-size: 24px; 
+        margin-bottom: 20px;
+    }
+    .about-contents {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .withOvl {
+        padding-top: 70px; 
+        overflow: hidden;
+    }
+    .partners-area {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .partners-area .section-title.first {
+        padding-bottom: 70px;
+        margin: 0;
+    }
+    .partners-company ul {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .partners-company ul li {
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+    .partners-company img.map { 
+        margin-top: 40px;
+    }
+    .subscribe {
+        display: block; 
+    }
+    .subscribe p {
+        margin: 0;
+        font-size: 16px;
+        padding-right: 0;
+        margin-bottom: 10px;
+        min-width: 100%;
+        line-height: 20px;
+    }
+    .subscribe form input {   
+        margin-bottom: 10px;
+        padding: 5px 15px;
+    }
+    .footer-wrp {
+        border-top: 1px solid #dde7f2;
+        margin-top: 100px;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    .section-title h1 { 
+        font-size: 19px; 
+    }
+    .contact-form form label textarea {
+        min-height: 130px;
+    }
+    .partners-area .section-title.bottom {
+        margin-bottom: 40px;
+    }
+    .contact-form form label input { 
+        height: 35px;
+        padding: 10px; 
+        margin-top: 3px;
+    }
+    .contact-form form button { 
+        padding: 8px 50px; 
+        font-weight: 500; 
+        border-radius: 3px; 
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .subscribe form button {
+        padding: 6px 17px; 
+        font-weight: 500;
+        border-radius: 3px;
+    }
+    .contact-form form label {  
+        font-weight: 600; 
+        margin-bottom: 15px;
+    }
+    .item.lastOne {
+        margin-top: 30px;
+    }
 }
  
 /* Large Mobile screen :480px. */
