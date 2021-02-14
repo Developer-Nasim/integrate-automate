@@ -7,7 +7,9 @@
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    section.partner .row{
+    padding: 80px 0;
+}
 
 }
 
@@ -82,9 +84,19 @@
     .partners-area .section-title.bottom {
         margin-bottom: 40px;
     }
-
-
-
+    section.service.partner .partner_cont {
+        margin-top: 0px;
+      }
+      section.partner .row{
+    padding: 50px 0;
+}
+h2.bdr{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.partner_cont h2{
+    font-size: 30px;
+}
 
 
 
@@ -249,10 +261,73 @@
     .item.lastOne {
         margin-top: 30px;
     }
+    
+/*=============== Home page End & partner page start ================ */
+
+section.partner {
+    overflow: hidden;
+}
+
+
+h2.bdr {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+h2.bdr:after {
+    width: 35px;
+    height: 3px;
+}
+
+.partner_cont {
+    text-align: center;
+}
+
+.partner_cont h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.partner_cont h2 strong {
+}
+
+.partner_cont p {
+    font-size: 12px;
+}
+
+.mb_sh .partner_img {
+    margin-bottom: 20px;
+}
+
+.partner_img {margin-bottom: 20px;}
+.partner_img img {
+    width: 130px;
+}
+section.partner .row {
+    padding: 30px 0;
+}
+.mb_sh{
+    display: block;
+}
+.mb_hi{
+    display: none;
+}
+section.service.partner .partner_cont {
+    margin-top: 0px;
+  }
+  section.service.partner p {
+    margin-bottom: 10px;
+}
+/*=============== partner page End & Page Start ================ */
+
+
 }
  
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
+.partner_cont h2{
+    font-size: 30px;
+}
  
 }

@@ -631,13 +631,69 @@ li {
 
 
 
+/*=============== Home page End & partner page start ================ */
 
 
 
 
+.sec_title {
+    text-align: center;
+    padding: 50px 0 0px;
+}
 
+h2.bdr {
+    font-weight: 700;
+    color: #183765;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
 
+h2.bdr:after {content: "";position: absolute;bottom: 0;left: 50%;width: 45px;height: 5px;background: #0067ff;transform: translateX(-50%);}
+hr.ptner{
+    margin: 0;
+    border-color: #dde7f2;
+}
 
+section.partner .row {
+  padding: 100px 0;
+}
+.mb_sh{
+    display: none;
+}
+.partner_cont h2 {
+    font-weight: 300;
+    color: #0067ff;
+    margin-bottom: 30px;
+}
+
+.partner_cont h2 strong {
+    font-weight: 700;
+}
+.partner_cont p {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 0;
+}
+
+.partner_img {
+    text-align: center;
+}
+
+section.service.partner p{
+    margin-bottom: 25px;
+}
+section.service.partner p:last-child{
+    margin-bottom: 0;
+}
+section.service.partner .partner_cont {
+  margin-top: 55px;
+}
+
+section.service.partner h2 {
+  color: #183765;
+}
+/*=============== partner page End & Page Start ================ */
 
 
 
