@@ -97,7 +97,9 @@ h2.bdr{
 .partner_cont h2{
     font-size: 30px;
 }
-
+.sr-individual .about-desc {
+    margin-top: 40px;
+}
 
 
 
@@ -263,11 +265,16 @@ h2.bdr{
     }
     
 /*=============== Home page End & partner page start ================ */
-
+.main-about {
+    padding-bottom: 50px;
+}
 section.partner {
     overflow: hidden;
 }
 
+.main-about .sec_title {
+    margin-bottom: 40px;
+  }
 
 h2.bdr {
     font-size: 25px;
@@ -319,6 +326,26 @@ section.service.partner .partner_cont {
     margin-bottom: 10px;
 }
 /*=============== partner page End & Page Start ================ */
+.sr-individual .about-desc .section-title {
+    margin-bottom: 15px;
+}
+.sr-individual .about-desc {
+    margin-top: 30px;
+}
+.srvs span img { 
+    height: 40px;
+}
+.srvs span { 
+    font-size: 12px;
+}
+.sr-individual {
+    padding-bottom: 70px;
+}
+
+
+
+
+
 
 
 }
